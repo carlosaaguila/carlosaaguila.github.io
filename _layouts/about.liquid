@@ -75,18 +75,7 @@ layout: default
 
     {% if page.profile_carousel %}
       <div class="about-carousel-wrapper">
-        <swiper-container
-          class="about-carousel"
-          slides-per-view="1.25"
-          centered-slides="true"
-          loop="true"
-          autoplay-delay="2000"
-          autoplay-disable-on-interaction="false"
-          autoplay-pause-on-mouse-enter="true"
-          slide-to-clicked-slide="true"
-          speed="600"
-          grab-cursor="true"
-        >
+        <swiper-container class="about-carousel" init="false">
           {% for img in page.profile_carousel %}
             <swiper-slide>
               <img src="{{ img | relative_url }}" alt="Photo {{ forloop.index }}" loading="lazy">
@@ -94,6 +83,22 @@ layout: default
           {% endfor %}
         </swiper-container>
       </div>
+      <script>
+        customElements.whenDefined('swiper-container').then(function () {
+          var el = document.querySelector('swiper-container.about-carousel');
+          if (!el) return;
+          Object.assign(el, {
+            slidesPerView: 1.25,
+            centeredSlides: true,
+            loop: true,
+            speed: 600,
+            grabCursor: true,
+            slideToClickedSlide: true,
+            autoplay: { delay: 2000, disableOnInteraction: false, pauseOnMouseEnter: true },
+          });
+          el.initialize();
+        });
+      </script>
     {% endif %}
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
