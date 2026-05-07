@@ -26,6 +26,7 @@ profile_carousel:
   - assets/img/about-carousel/pic4.jpg
   - assets/img/about-carousel/pic5.jpg
   - assets/img/about-carousel/pic6.jpg
+  - assets/img/about-carousel/pic7.jpg
 ---
 
 I am a PhD candidate in Bioengineering at the University of Pennsylvania, based in the [Center for Neuroengineering and Therapeutics](https://cnt.upenn.edu) and the [Conrad Lab](https://conradeeg.org/). My dissertation is titled _"Mapping dynamic epileptic networks using spontaneous and evoked interictal EEG,"_ advised by [Erin C. Conrad, MD](https://conradeeg.org/) and [Brian Litt, MD](https://littlab.seas.upenn.edu). I am funded by the [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/) and an NIH R01 Diversity Supplement.
