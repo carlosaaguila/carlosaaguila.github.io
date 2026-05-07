@@ -73,17 +73,19 @@ body.sticky-bottom-footer {
 }
 
 .about-carousel swiper-slide {
-  opacity: 0.35;
-  transform: scale(0.88);
+  opacity: 1;
+  transform: scale(1);
   transition: opacity 0.4s ease, transform 0.4s ease;
   cursor: pointer;
   border-radius: 8px;
   overflow: hidden;
 }
 
-.about-carousel swiper-slide.swiper-slide-active {
-  opacity: 1;
-  transform: scale(1);
+.about-carousel swiper-slide.swiper-slide-prev,
+.about-carousel swiper-slide.swiper-slide-next,
+.about-carousel swiper-slide.swiper-slide-duplicate:not(.swiper-slide-active) {
+  opacity: 0.35;
+  transform: scale(0.88);
 }
 
 .about-carousel swiper-slide img {
