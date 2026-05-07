@@ -261,16 +261,7 @@ jekyll-minifier:
 # Jekyll Archives
 # -----------------------------------------------------------------------------
 
-jekyll-archives:
-  enabled: []
-  layouts:
-    year: archive-year
-    tag: archive-tag
-    category: archive-category
-  permalinks:
-    year: "/blog/:year/"
-    tag: "/blog/tag/:name/"
-    category: "/blog/category/:name/"
+jekyll-archives: {} # disabled — jekyll-archives-v2 uses per-collection config, not flat enabled: []
 
 display_tags: []
 display_categories: []
