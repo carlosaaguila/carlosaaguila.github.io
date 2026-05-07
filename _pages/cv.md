@@ -6,24 +6,32 @@ nav: true
 nav_order: 3
 ---
 
-<div class="row mt-3">
-  <div class="col-sm-6">
-    <h4>Academic CV</h4>
-    <p>Full academic curriculum vitae — education, publications, funding, teaching, and service.</p>
-    <a href="/assets/pdf/Aguila_CV.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">Download CV (PDF)</a>
-  </div>
-  <div class="col-sm-6">
-    <h4>Industry Résumé</h4>
-    <p>One-page résumé for industry research and data science roles.</p>
-    <a href="/assets/pdf/Aguila_Resume.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">Download Résumé (PDF)</a>
-  </div>
+<div class="cv-toggle mt-3 mb-4">
+  <button id="btn-cv" class="btn btn-sm z-depth-0 cv-btn active" onclick="showDoc('cv')">CV</button>
+  <button id="btn-resume" class="btn btn-sm z-depth-0 cv-btn" onclick="showDoc('resume')">Résumé</button>
+  <a id="download-link" href="/assets/pdf/Aguila_CV.pdf" class="btn btn-sm z-depth-0 cv-btn ml-3" target="_blank">Download</a>
 </div>
 
----
-
-<h4 class="mt-4">Academic CV</h4>
-
-<iframe src="/assets/pdf/Aguila_CV.pdf" width="100%" height="900px" style="border: none; margin-top: 1rem;">
+<iframe id="cv-frame" src="/assets/pdf/Aguila_CV.pdf" width="100%" height="900px" style="border: none;">
   Your browser does not support PDFs.
   <a href="/assets/pdf/Aguila_CV.pdf">Download the CV</a>.
 </iframe>
+
+<style>
+  .cv-toggle { display: flex; gap: 0.5rem; align-items: center; }
+  .cv-btn { border: 1px solid var(--global-theme-color) !important; }
+  .cv-btn.active {
+    background-color: var(--global-theme-color) !important;
+    color: #fff !important;
+  }
+</style>
+
+<script>
+  function showDoc(type) {
+    var pdf = type === 'cv' ? '/assets/pdf/Aguila_CV.pdf' : '/assets/pdf/Aguila_Resume.pdf';
+    document.getElementById('cv-frame').src = pdf;
+    document.getElementById('download-link').href = pdf;
+    document.getElementById('btn-cv').classList.toggle('active', type === 'cv');
+    document.getElementById('btn-resume').classList.toggle('active', type === 'resume');
+  }
+</script>
