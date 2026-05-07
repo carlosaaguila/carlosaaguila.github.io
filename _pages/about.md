@@ -17,10 +17,14 @@ selected_papers: false
 social: true
 ---
 
-I am a PhD candidate in Bioengineering at the University of Pennsylvania, advised by [Erin C. Conrad, MD](https://www.pennmedicine.org/providers/profile/erin-conrad) and [Brian Litt, MD](https://littlab.seas.upenn.edu). My dissertation is titled _"Mapping dynamic epileptic networks using spontaneous and evoked interictal EEG."_ I am funded by the [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/) and an NIH R01 Diversity Supplement.
+I am a PhD candidate in Bioengineering at the University of Pennsylvania, based in the [Center for Neuroengineering and Therapeutics](https://cnt.upenn.edu) and the [Conrad Lab](https://conradeeg.org/). My dissertation is titled _"Mapping dynamic epileptic networks using spontaneous and evoked interictal EEG,"_ advised by [Erin C. Conrad, MD](https://conradeeg.org/) and [Brian Litt, MD](https://littlab.seas.upenn.edu). I am funded by the [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/) and an NIH R01 Diversity Supplement.
 
 My research sits at the intersection of computational neuroscience, machine learning, and clinical epileptology. I build quantitative tools that extract clinically actionable information from long-term intracranial EEG recordings — information that helps neurosurgeons localize where epilepsy originates and make better treatment decisions for patients with drug-resistant epilepsy.
 
 Beyond research, I write [The Neural Stack](https://neuralmemos.substack.com), a technical analysis publication covering the BCI and neurotechnology industry for investors and founders. I also serve as Co-Head of Technology & Partnership at [Nucleate Philadelphia](https://nucleate.xyz), helping translate academic biotech into commercial ventures.
 
 I am graduating Fall 2026 and am actively exploring industry research roles at the intersection of neurotechnology, wearables, and digital health.
+
+---
+
+Outside the lab, I spend my time playing video games, lifting heavy things, cycling, playing Magic: The Gathering, and tinkering with AI.
