@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://carlosaaguila.github.io/sitemap.xml
