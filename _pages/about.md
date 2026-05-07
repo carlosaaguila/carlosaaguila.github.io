@@ -13,7 +13,7 @@ profile:
     <p>aguilac@seas.upenn.edu</p>
 
 news: true
-selected_papers: true
+selected_papers: false
 social: true
 ---
 

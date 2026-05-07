@@ -4,12 +4,12 @@ title: "BE 5210: Brain Computer Interfaces"
 description: >
   Graduate course covering the neuroscience, engineering, and clinical translation of brain-computer interfaces.
   Topics include neural signal acquisition, signal processing, decoding algorithms, closed-loop systems,
-  and ethical considerations.
-instructor: Graduate Teaching Fellow (Primary instructor — Prof. Brian Litt)
-year: 2023
+  and clinical applications in motor restoration, speech, and epilepsy.
+instructor: Graduate Teaching Fellow (Primary instructor — Prof. Brian Litt, MD)
+year: 2025
 term: Spring
 location: University of Pennsylvania, Department of Bioengineering
-time: See course page
+time: See course website
 course_id: be5210-bci
 schedule:
   - week: 1
@@ -71,9 +71,12 @@ schedule:
 
 ## Course Overview
 
-BE 5210 covers the full stack of brain-computer interface technology — from the biophysics of neural signal generation to clinical deployment of BCI devices. The course is designed for bioengineering graduate students and provides both theoretical foundations and practical exposure to the tools used in modern BCI research.
+[BE 5210](https://be5210.com/) covers the full stack of brain-computer interface technology — from the biophysics of neural signal generation to clinical deployment of BCI devices.
+The course is designed for bioengineering graduate students and provides both theoretical foundations and practical exposure to modern BCI research.
 
-I have served as Graduate Teaching Fellow for this course since January 2023, supporting lecture delivery, leading discussion sections, designing problem sets, and mentoring students through final projects.
+I have served as Graduate Teaching Fellow for BE 5210 since January 2023 — three consecutive years — supporting lecture delivery, leading discussion sections, designing problem sets, and mentoring students through final projects.
+
+**Course website:** [be5210.com](https://be5210.com/)
 
 ## Topics Covered
 
@@ -86,4 +89,4 @@ I have served as Graduate Teaching Fellow for this course since January 2023, su
 
 ## My Role
 
-Graduate Teaching Fellow under primary instructor Prof. Brian Litt, MD. Responsibilities include lecture support, office hours, assignment design, and project mentoring.
+Graduate Teaching Fellow under Prof. Brian Litt, MD. Responsibilities include lecture support, office hours, assignment design, and project mentoring. Taught continuously 2023–2025.
