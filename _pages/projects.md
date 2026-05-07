@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Research tools, ventures, and community work.
 nav: true
-nav_order: 3
-display_categories: [work, fun]
+nav_order: 4
+display_categories: [Research, Ventures, Service]
 horizontal: false
 ---
 
@@ -39,11 +39,7 @@ horizontal: false
 
 {% else %}
 
-<!-- Display projects without categories -->
-
 {% assign sorted_projects = site.projects | sort: "importance" %}
-
-  <!-- Generate cards for each project -->
 
 {% if page.horizontal %}
 

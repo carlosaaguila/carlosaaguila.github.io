@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2025-01-01 00:00:00-0500
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Paper published in _Annals of Neurology_: normative iEEG atlas localizes epileptic abnormalities across sleep/wake states (Pattnaik, Ong, **Aguila CA** et al.).

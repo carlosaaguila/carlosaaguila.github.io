@@ -3,7 +3,7 @@ layout: page
 title: Research
 permalink: /research/
 nav: true
-nav_order: 1
+nav_order: 2
 ---
 
 My research develops computational tools that extract clinically actionable information from intracranial EEG (iEEG) — electrical recordings made directly from the brain surface in patients undergoing presurgical epilepsy evaluation. The overarching goal: reduce the time, cost, and risk of epilepsy surgery workups while improving surgical outcomes.
