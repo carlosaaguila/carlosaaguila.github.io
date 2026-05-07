@@ -73,6 +73,34 @@ layout: default
       </div>
     {% endif %}
 
+    {% if page.profile_carousel %}
+      <div class="about-carousel-wrapper">
+        <swiper-container id="about-carousel" init="false">
+          {% for img in page.profile_carousel %}
+            <swiper-slide>
+              <img src="{{ img | relative_url }}" alt="Photo {{ forloop.index }}" loading="lazy" />
+            </swiper-slide>
+          {% endfor %}
+        </swiper-container>
+      </div>
+      <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          var el = document.querySelector('#about-carousel');
+          if (!el) return;
+          Object.assign(el, {
+            slidesPerView: 1.25,
+            centeredSlides: true,
+            loop: true,
+            speed: 600,
+            grabCursor: true,
+            slideToClickedSlide: true,
+            autoplay: { delay: 2000, disableOnInteraction: false, pauseOnMouseEnter: true },
+          });
+          el.initialize();
+        });
+      </script>
+    {% endif %}
+
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}
     {% endif %}

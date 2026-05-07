@@ -56,3 +56,46 @@ body.sticky-bottom-footer {
 *****************************************************************************/
 
 // TODO: redefine projects layout.
+
+/******************************************************************************
+ * About page carousel
+ ******************************************************************************/
+
+.about-carousel-wrapper {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.about-carousel {
+  width: 100%;
+}
+
+.about-carousel swiper-slide {
+  opacity: 0.35;
+  transform: scale(0.88);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  cursor: pointer;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.about-carousel swiper-slide.swiper-slide-active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.about-carousel swiper-slide img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  display: block;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .about-carousel swiper-slide img {
+    height: 280px;
+  }
+}
