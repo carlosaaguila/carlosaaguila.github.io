@@ -89,7 +89,7 @@ layout: default
         >
           {% for img in page.profile_carousel %}
             <swiper-slide>
-              <img src="{{ img | relative_url }}" alt="Photo {{ forloop.index }}" loading="lazy" />
+              <img src="{{ img | relative_url }}" alt="Photo {{ forloop.index }}" loading="lazy">
             </swiper-slide>
           {% endfor %}
         </swiper-container>
