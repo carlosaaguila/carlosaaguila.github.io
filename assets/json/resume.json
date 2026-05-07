@@ -1,0 +1,210 @@
+{
+  "basics": {
+    "name": "Carlos A. Aguila",
+    "label": "PhD Candidate in Bioengineering",
+    "image": "",
+    "email": "caguila1998@gmail.com",
+    "phone": "",
+    "url": "https://carlosaaguila.github.io",
+    "summary": "PhD candidate in Bioengineering at the University of Pennsylvania. I build machine learning tools that extract clinically actionable information from intracranial EEG to improve surgical outcomes for drug-resistant epilepsy. NSF GRFP and NIH R01 Diversity Supplement awardee. Expected graduation Fall 2026.",
+    "location": {
+      "city": "Philadelphia",
+      "countryCode": "US",
+      "region": "Pennsylvania"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "carlos-aguila",
+        "url": "https://www.linkedin.com/in/carlos-aguila"
+      },
+      {
+        "network": "GitHub",
+        "username": "carlosaaguila",
+        "url": "https://github.com/carlosaaguila"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Center for Neuroengineering and Therapeutics, University of Pennsylvania",
+      "position": "Graduate Research Fellow",
+      "location": "Philadelphia, PA",
+      "startDate": "2022-01-01",
+      "endDate": "",
+      "summary": "Advisors: Erin C. Conrad, MD & Brian Litt, MD. Dissertation: Mapping dynamic epileptic networks using spontaneous and evoked interictal EEG.",
+      "highlights": [
+        "Time-series analysis of intracranial EEG: spike rates, multidien cycles, epileptic networks",
+        "ML models integrating interictal and ictal features to predict mesial temporal lobe epilepsy",
+        "Cortical stimulation pipeline characterizing epileptogenic networks from stimulation trials",
+        "Collaboration on ictal iEEG clustering via unsupervised deep learning"
+      ]
+    },
+    {
+      "name": "The Neural Stack / Neural Memos",
+      "position": "Founder & Author",
+      "location": "Remote",
+      "startDate": "2025-01-01",
+      "endDate": "",
+      "summary": "Technical analysis of the BCI and neurotechnology industry for venture capital investors and founders.",
+      "highlights": []
+    },
+    {
+      "name": "Department of Bioengineering, University of Pennsylvania",
+      "position": "Graduate Teaching Fellow",
+      "location": "Philadelphia, PA",
+      "startDate": "2023-01-01",
+      "endDate": "",
+      "summary": "BE 5210 – Brain Computer Interfaces",
+      "highlights": []
+    },
+    {
+      "name": "Penn Biotech Group, University of Pennsylvania",
+      "position": "Consultant",
+      "location": "Philadelphia, PA",
+      "startDate": "2022-01-01",
+      "endDate": "2023-01-01",
+      "summary": "Technology assessments, commercial viability analysis, market landscape research for academic technologies.",
+      "highlights": []
+    },
+    {
+      "name": "Physiomimetic Microsystems Laboratory, University of Miami",
+      "position": "Research Assistant",
+      "location": "Miami, FL",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "summary": "Advisor: Ashutosh Agarwal, PhD. Designed organ-on-chip platforms to model shear stress, oxygen diffusion, and cancer extravasation.",
+      "highlights": []
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Nucleate Philadelphia",
+      "position": "Co-Head, Technology & Partnership",
+      "startDate": "2025-01-01",
+      "endDate": "",
+      "summary": "Biotech venture ecosystem builder; connecting academic labs to early-stage startup infrastructure."
+    },
+    {
+      "organization": "Camp Kesem",
+      "position": "Graduate Advisory Board Member",
+      "startDate": "2017-01-01",
+      "endDate": "",
+      "summary": "Fundraising and counseling for children of cancer patients. $120K+ raised over tenure."
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Pennsylvania",
+      "location": "Philadelphia, PA",
+      "url": "https://www.seas.upenn.edu/",
+      "area": "Bioengineering",
+      "studyType": "PhD",
+      "startDate": "2021-01-01",
+      "endDate": "2026-01-01",
+      "score": "",
+      "courses": [],
+      "highlights": [
+        "Dissertation: Mapping dynamic epileptic networks using spontaneous and evoked interictal EEG",
+        "Advisors: Brian Litt, MD & Erin C. Conrad, MD",
+        "NSF Graduate Research Fellowship (2023)",
+        "NIH R01 Diversity Supplement (2023)",
+        "Fontaine Fellow (2021)"
+      ]
+    },
+    {
+      "institution": "University of Miami",
+      "location": "Miami, FL",
+      "url": "https://www.miami.edu/",
+      "area": "Biomedical Engineering",
+      "studyType": "BS",
+      "startDate": "2016-01-01",
+      "endDate": "2020-01-01",
+      "score": "3.91/4.0",
+      "courses": [],
+      "highlights": [
+        "Magna Cum Laude",
+        "Tau Beta Pi, Alpha Eta Mu Beta, Omicron Delta Kappa honor societies",
+        "Ronald A. Hammond Scholarship"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "NSF Graduate Research Fellowship (GRFP)",
+      "date": "2023-01-01",
+      "awarder": "National Science Foundation",
+      "summary": ""
+    },
+    {
+      "title": "NIH R01 Diversity Supplement",
+      "date": "2023-01-01",
+      "awarder": "National Institutes of Health",
+      "summary": ""
+    },
+    {
+      "title": "Fontaine Fellowship",
+      "date": "2021-01-01",
+      "awarder": "University of Pennsylvania",
+      "summary": ""
+    },
+    {
+      "title": "Alpha Eta Mu Beta Award",
+      "date": "2020-01-01",
+      "awarder": "National Biomedical Engineering Honor Society",
+      "summary": ""
+    }
+  ],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Programming",
+      "level": "Expert",
+      "icon": "fa-solid fa-code",
+      "keywords": ["Python", "MATLAB", "R", "HTML/CSS"]
+    },
+    {
+      "name": "Machine Learning & Data Science",
+      "level": "Expert",
+      "icon": "fa-solid fa-brain",
+      "keywords": ["Scikit-learn", "TensorFlow", "PyTorch", "SciPy", "Pandas", "Time-series analysis", "Deep learning", "Unsupervised learning"]
+    },
+    {
+      "name": "High-Performance Computing",
+      "level": "Proficient",
+      "icon": "fa-solid fa-server",
+      "keywords": ["Unix/Linux", "Remote supercomputing clusters", "GPU computing", "Code parallelization", "Git"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker",
+      "icon": ""
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent",
+      "icon": ""
+    }
+  ],
+  "interests": [
+    {
+      "name": "Neurotechnology & BCIs",
+      "icon": "fa-solid fa-microchip",
+      "keywords": ["Brain-computer interfaces", "Wearable devices", "Digital health", "Epilepsy devices", "Neural signal processing"]
+    }
+  ],
+  "references": [],
+  "projects": [
+    {
+      "name": "The Neural Stack",
+      "summary": "Technical analysis publication covering the BCI and neurotechnology industry for investors and founders.",
+      "highlights": [],
+      "startDate": "2025-01-01",
+      "endDate": "",
+      "url": "https://neuralmemos.substack.com"
+    }
+  ]
+}
