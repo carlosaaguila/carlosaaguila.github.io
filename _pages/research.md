@@ -30,7 +30,7 @@ Epilepsy is a network disease — seizures emerge from distributed brain circuit
 
 ## Cortical Stimulation & Evoked Potentials
 
-Electrical stimulation allows us to *probe* the epileptic network rather than passively observe it. I build analysis pipelines for cortico-cortical evoked potentials (CCEPs) and low-frequency stimulation trials, studying how the epileptogenic network responds to perturbation and how stimulation devices interact with interictal activity.
+Electrical stimulation allows us to _probe_ the epileptic network rather than passively observe it. I build analysis pipelines for cortico-cortical evoked potentials (CCEPs) and low-frequency stimulation trials, studying how the epileptogenic network responds to perturbation and how stimulation devices interact with interictal activity.
 
 ---
 
@@ -44,6 +44,6 @@ Translating research findings into tools and devices that work at clinical scale
 
 See the [Publications](/publications/) page for a full list.
 
-- **Aguila CA** et al. (2025). Mesial-to-lateral gradients of epileptiform activity to localize mesial temporal lobe epilepsy. *Epilepsia*. [DOI: 10.1111/epi.18462](https://doi.org/10.1111/epi.18462)
-- Conrad EC, Lucas A, Ojemann WKS, **Aguila CA** et al. (2024). Interictal intracranial EEG asymmetry lateralizes temporal lobe epilepsy. *Brain Communications*.
-- Pattnaik AR, Ong IZ, **Aguila CA** et al. (2025). Normative Intracranial EEG Localizes Epileptic Abnormalities Across States of Wakefulness. *Annals of Neurology*.
+- **Aguila CA** et al. (2025). Mesial-to-lateral gradients of epileptiform activity to localize mesial temporal lobe epilepsy. _Epilepsia_. [DOI: 10.1111/epi.18462](https://doi.org/10.1111/epi.18462)
+- Conrad EC, Lucas A, Ojemann WKS, **Aguila CA** et al. (2024). Interictal intracranial EEG asymmetry lateralizes temporal lobe epilepsy. _Brain Communications_.
+- Pattnaik AR, Ong IZ, **Aguila CA** et al. (2025). Normative Intracranial EEG Localizes Epileptic Abnormalities Across States of Wakefulness. _Annals of Neurology_.

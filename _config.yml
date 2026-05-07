@@ -223,7 +223,6 @@ keep_files:
   - .nojekyll
 
 plugins:
-  - jekyll-archives
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-get-json
@@ -263,7 +262,7 @@ jekyll-minifier:
 # -----------------------------------------------------------------------------
 
 jekyll-archives:
-  enabled: [year, tags, categories]
+  enabled: []
   layouts:
     year: archive-year
     tag: archive-tag
