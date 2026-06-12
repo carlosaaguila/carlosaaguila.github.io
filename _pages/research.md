@@ -18,6 +18,15 @@ I developed a classifier that uses spatial gradient patterns of spike activity �
 
 This work was published in _Epilepsia_ (2025): [DOI 10.1111/epi.18462](https://doi.org/10.1111/epi.18462)
 
+<div class="row justify-content-center">
+  <div class="col-sm-10 mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/projects/spike_gradient.png" class="img-fluid rounded z-depth-1" zoomable=true alt="Mesial temporal lobe epilepsy spike-gradient analysis: detecting spikes and measuring rate, spread, and morphology along the mesial-to-lateral axis." %}
+  </div>
+</div>
+<div class="caption">
+  Detecting interictal spikes and measuring their rate, spatial spread, and morphology along the mesial-to-lateral axis to localize mesial temporal lobe epilepsy. <em>Aguila et al., Epilepsia 2025.</em>
+</div>
+
 **Methods:** Mixed-effects models, automated spike detection with morphology annotation, Python / MATLAB.
 
 ---
@@ -28,6 +37,15 @@ Low-frequency stimulation (LFS, 1 Hz) is used therapeutically in epilepsy, but i
 I am building a pipeline to characterize how LFS acutely modulates interictal spike rates across the epileptogenic network — and whether spike rate changes can serve as a real-time biomarker of network excitability.
 
 Preliminary findings show that effects are heterogeneous: mesial temporal structures are more vulnerable to stimulation-induced spike modulation than lateral neocortex, suggesting a network-level excitability gradient that mirrors the spatial patterns in the localization work above.
+
+<div class="row justify-content-center">
+  <div class="col-sm-10 mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/projects/stim_spikes.png" class="img-fluid rounded z-depth-1" zoomable=true alt="Quantifying interictal spike rates before, during, and after 1 Hz cortical stimulation across every recording-stimulation channel pair." %}
+  </div>
+</div>
+<div class="caption">
+  Measuring interictal spike rates pre-, during, and post 1 Hz cortical stimulation across every recording–stimulation channel pair, revealing heterogeneous, region-dependent excitability changes. <em>Aguila et al., in preparation.</em>
+</div>
 
 **Methods:** Time-series analysis, mixed-effects models, stimulation artifact rejection, Python / MATLAB.
 

@@ -2,7 +2,7 @@
 layout: page
 title: Scalable Clinical Tools
 description: Computer vision for seizure onset classification, montage reduction for sub-scalp devices, and an implantable conversational AI device.
-img:
+img: assets/img/projects/implantable_device.png
 importance: 4
 category: Research
 related_publications: false

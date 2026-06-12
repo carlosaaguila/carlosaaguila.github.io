@@ -2,7 +2,7 @@
 layout: page
 title: Cortical Stimulation & Evoked Potentials
 description: Probing epileptic networks via low-frequency stimulation and cortico-cortical evoked potentials.
-img:
+img: assets/img/projects/stim_spikes.png
 importance: 3
 category: Research
 related_publications: false

@@ -2,7 +2,7 @@
 layout: page
 title: Interictal Spike Analysis
 description: ML models using spatial spike patterns to localize the seizure onset zone without capturing seizures.
-img: # TODO: add a figure here (e.g., assets/img/projects/spike_gradient.png)
+img: assets/img/projects/spike_gradient.png
 importance: 1
 category: Research
 related_publications: true

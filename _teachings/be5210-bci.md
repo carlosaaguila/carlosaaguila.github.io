@@ -71,7 +71,7 @@ schedule:
 
 ## Course Overview
 
-[BE 5210](https://be5210.com/) covers the full stack of brain-computer interface technology — from the biophysics of neural signal generation to clinical deployment of BCI devices.
+[BE 5210](https://be5210.com/) (formerly numbered BE 521) covers the full stack of brain-computer interface technology — from the biophysics of neural signal generation to clinical deployment of BCI devices.
 The course is designed for bioengineering graduate students and provides both theoretical foundations and practical exposure to modern BCI research.
 
 I have served as Graduate Teaching Fellow for BE 5210 since January 2023 — three consecutive years — supporting lecture delivery, leading discussion sections, designing problem sets, and mentoring students through final projects.

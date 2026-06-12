@@ -5,7 +5,7 @@ permalink: /projects/
 description: Research tools, ventures, and community work.
 nav: true
 nav_order: 4
-display_categories: [Research, Ventures, Service]
+display_categories: [Research, Software, Ventures, Service]
 horizontal: false
 ---
 

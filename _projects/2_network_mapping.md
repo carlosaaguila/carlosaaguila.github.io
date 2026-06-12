@@ -2,7 +2,7 @@
 layout: page
 title: Epileptic Network Mapping
 description: Characterizing distributed epileptogenic networks using unsupervised deep learning and normative iEEG atlases.
-img:
+img: assets/img/projects/embedding_map.png
 importance: 2
 category: Research
 related_publications: false
