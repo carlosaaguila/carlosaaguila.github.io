@@ -12,8 +12,8 @@ Translating iEEG research into tools that work at clinical scale requires thinki
 
 **Seizure onset pattern classification (YOLO):** Automated classification of five seizure onset patterns from iEEG images using YOLOv8. Seizure onset patterns carry prognostic information but are currently classified manually by epileptologists — a bottleneck this work aims to remove.
 
-**Reduced montage for sub-scalp EEG:** Analysis of how reducing electrode count affects seizure detection and spike asymmetry classification for next-generation sub-scalp wearable devices. Patient factors (epilepsy type, seizure semiology) dominate montage reduction effects.
+**Reduced montage for sub-scalp EEG:** Analysis of how reducing electrode count affects seizure detection and spike asymmetry classification for next-generation sub-scalp wearable devices. Patient factors (epilepsy type, seizure semiology) dominate montage reduction effects. _In submission._
 
-**Implantable conversational AI device:** Contributed to the design and validation of a device that uses a large language model to converse with patients, track symptoms, and co-manage epilepsy — the first demonstration of conversational AI integrated into an implantable neurology device.
+**Implantable conversational AI device:** Contributed to the design and validation of a device that uses a large language model to converse with patients, track symptoms, and co-manage epilepsy — the first demonstration of conversational AI integrated into an implantable neurology device. Preprint: [medRxiv (2026)](https://doi.org/10.64898/2026.01.26.26344234).
 
 **Methods:** YOLOv8 object detection, transfer learning, electrode geometry optimization, Python.

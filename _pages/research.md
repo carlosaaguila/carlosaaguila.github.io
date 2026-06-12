@@ -20,11 +20,11 @@ This work was published in _Epilepsia_ (2025): [DOI 10.1111/epi.18462](https://d
 
 <div class="row justify-content-center">
   <div class="col-sm-10 mt-3">
-    {% include figure.liquid loading="eager" path="assets/img/projects/spike_gradient.png" class="img-fluid rounded z-depth-1" zoomable=true alt="Mesial temporal lobe epilepsy spike-gradient analysis: detecting spikes and measuring rate, spread, and morphology along the mesial-to-lateral axis." %}
+    {% include figure.liquid loading="eager" path="assets/img/projects/spike_directionality.png" class="img-fluid rounded z-depth-1" zoomable=true alt="Spatiotemporal map of spike rate from mesial to lateral contacts, with spike-rate and spike-timing directionality compared across mesial temporal, temporal neocortical, and other-cortex localizations." %}
   </div>
 </div>
 <div class="caption">
-  Detecting interictal spikes and measuring their rate, spatial spread, and morphology along the mesial-to-lateral axis to localize mesial temporal lobe epilepsy. <em>Aguila et al., Epilepsia 2025.</em>
+  Spatiotemporal map of spike rate along the mesial-to-lateral axis (A). Mesial temporal lobe epilepsy shows a significantly stronger mesial-dominant spike-rate gradient than other localizations (B; Kruskal–Wallis p &lt; 0.001), while spike-timing directionality does not separate the groups (C). <em>Aguila et al., Epilepsia 2025 (Figure 2).</em>
 </div>
 
 **Methods:** Mixed-effects models, automated spike detection with morphology annotation, Python / MATLAB.
