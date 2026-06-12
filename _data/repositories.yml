@@ -1,14 +1,12 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - carlosaaguila
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - carlosaaguila/sz-gui
+  - carlosaaguila/spike_detector
+  - carlosaaguila/event-detector-DL
+  - carlosaaguila/SpikeMorphology
+  - carlosaaguila/Interictal_Spike_Analysis
+  - carlosaaguila/carlosaaguila.github.io

@@ -27,21 +27,21 @@ API traffic goes `Browser → CloudFront /api/* → EC2`. CloudFront terminates 
 
 ## Stack
 
-| Layer            | Technology                                       | Notes                                              |
-| ---------------- | ------------------------------------------------ | -------------------------------------------------- |
-| Frontend         | React (Plotly.js for EEG rendering)              | Single-page app, built to static assets            |
-| Backend          | Flask + gunicorn (1 worker × 4 threads)          | nginx reverse proxy in front                       |
-| Database         | PostgreSQL on the EC2 (not RDS)                   | Local DB saves ~$15/mo at this scale               |
-| EEG storage      | S3, private, EC2 IAM role with `GetObject` only  | EDFs streamed to disk to avoid OOM on t3.micro     |
-| Frontend hosting | S3 + CloudFront, private bucket via OAC (SigV4)  | SPA routing handled at the edge                    |
-| Infrastructure   | Terraform, `dev` / `prod` workspaces             | Remote state in S3                                 |
-| CI/CD            | GitHub Actions — 2 workflows                     | Frontend: S3 sync + invalidation; backend: rsync + systemd |
+| Layer            | Technology                                      | Notes                                                      |
+| ---------------- | ----------------------------------------------- | ---------------------------------------------------------- |
+| Frontend         | React (Plotly.js for EEG rendering)             | Single-page app, built to static assets                    |
+| Backend          | Flask + gunicorn (1 worker × 4 threads)         | nginx reverse proxy in front                               |
+| Database         | PostgreSQL on the EC2 (not RDS)                 | Local DB saves ~$15/mo at this scale                       |
+| EEG storage      | S3, private, EC2 IAM role with `GetObject` only | EDFs streamed to disk to avoid OOM on t3.micro             |
+| Frontend hosting | S3 + CloudFront, private bucket via OAC (SigV4) | SPA routing handled at the edge                            |
+| Infrastructure   | Terraform, `dev` / `prod` workspaces            | Remote state in S3                                         |
+| CI/CD            | GitHub Actions — 2 workflows                    | Frontend: S3 sync + invalidation; backend: rsync + systemd |
 
 ## Engineering decisions
 
 - **No RDS, no Elastic Beanstalk, no Fargate.** A single EC2 with local Postgres covers 5–10 concurrent clinicians and avoids $15–25/mo of managed-service overhead. Few moving parts, one box to SSH into and debug.
 - **Memory hardening on a 1 GB instance.** EDF files are streamed from S3 to local disk rather than loaded into RAM, the EEG cache evicts down to a single recording, and a 1 GB swapfile absorbs spikes — together these eliminated the 502s I was hitting on `t2.micro`.
-- **Privacy by default.** Both S3 buckets are private, the database listens only on `localhost`, and IAM follows least privilege. Patient EEG is de-identified with HMAC-SHA256 *before* upload, with the key kept only on the local machine and no stored mapping — so no coded data ever lands on AWS.
+- **Privacy by default.** Both S3 buckets are private, the database listens only on `localhost`, and IAM follows least privilege. Patient EEG is de-identified with HMAC-SHA256 _before_ upload, with the key kept only on the local machine and no stored mapping — so no coded data ever lands on AWS.
 - **Reproducible.** Terraform plus GitHub Actions means the entire environment can be torn down and rebuilt from version-controlled config.
 
 ## Status
