@@ -2,7 +2,7 @@
 
 ## About the Owner
 
-Carlos Aguila. PhD candidate, Bioengineering, UPenn (expected Fall 2026). Computational neuroscience + ML + clinical epileptology. This repo is his personal GitHub website.
+Carlos Aguila. PhD, Bioengineering, UPenn (defended Sept 15, 2026). Research Scientist at Neumarker, Inc. Computational neuroscience + ML + clinical epileptology. This repo is his personal GitHub website.
 
 ## Primary Knowledge Source
 
