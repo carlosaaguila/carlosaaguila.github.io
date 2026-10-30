@@ -1,6 +1,6 @@
 # carlosaaguila.github.io
 
-Personal academic website for **Carlos Aguila** — PhD candidate in Bioengineering at the University of Pennsylvania (expected Fall 2026), working at the intersection of computational neuroscience, machine learning, and clinical epileptology.
+Personal academic website for **Carlos Aguila** — Research Scientist at Neumarker, Inc., PhD in Bioengineering from the University of Pennsylvania (2026), working at the intersection of computational neuroscience, machine learning, and clinical epileptology.
 
 Live site: [carlosaaguila.github.io](https://carlosaaguila.github.io)
 
